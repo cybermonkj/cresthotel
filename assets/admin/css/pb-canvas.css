@@ -1,0 +1,130 @@
+div[data-gjs-type="lory-slider"] {
+    direction: ltr;
+}
+
+.services-area {
+    padding: 0px;
+}
+.case-section {
+    padding: 0px;
+}
+.faq-section {
+    padding: 0px;
+}
+.testimonial-section {
+    padding-bottom: 0px;
+}
+.pricing-tables {
+    padding-top: 0px;
+}
+.blog-section {
+    padding: 0px;
+}
+.cta-section {
+    padding: 49px 0px;
+}
+.service-categories {
+    padding: 0px;
+}
+.approach-section {
+    padding: 0;
+}
+.team-section {
+    padding: 0;
+}
+.pb-rtl {
+    direction: rtl;
+}
+
+.pbcontainer {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 100px;
+}
+ul.pagebuilder-ul {
+    list-style-type: disc;
+    padding: 0px 40px;
+}
+ol.pagebuilder-ol {
+    list-style-type: decimal;
+    padding: 0px 40px;
+}
+@media (min-width: 576px) {
+    .pbcontainer {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .pbcontainer {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .pbcontainer {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .pbcontainer {
+        max-width: 1140px;
+    }
+}
+
+
+.pb-mb30 {
+    margin-bottom: 30px !important;
+}
+
+
+[data-gjs-type="wrapper"] {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.gjs-dashed .gjs-plh-image {
+    height: auto;
+    display: inline-block;
+    width: auto;
+}
+/* .gjs-toolbar .fa.fa-clone.gjs-toolbar-item {
+    display: none !important;
+}
+
+.gjs-toolbar .fa.fa-arrow-up.gjs-toolbar-item {
+    display: none !important;
+} */
+.slick-slide {
+    height: auto;
+}
+
+table, tr, td, tbody {
+    border: 1px solid gray;
+}
+
+div[data-gjs-type="lory-slider"] {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+div[data-gjs-type="lory-frame"] {
+    width: 100% !important;
+}
+
+div[data-gjs-type="lory-slide"] {
+    width: 100% !important;
+}
+
+div[data-gjs-type="lory-slides"] {
+    width: 100%;
+}
+/* img:not(.loaded) {
+    width: auto !important;
+    display: block !important;
+    margin: 0 auto !important;
+} */
+img.lazy:not(.loaded) {
+    visibility: hidden !important;
+    width: auto !important;
+}
